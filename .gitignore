@@ -1,0 +1,48 @@
+# ─── Python ───────────────────────────────────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ─── Virtual Environments ────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Jupyter Notebooks ───────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── PyTorch / Model Artifacts ───────────────────────────
+*.pth
+*.pt
+*.ckpt
+
+# ─── Generated Output Files ──────────────────────────────
+*.png
+*.jpg
+*.pdf
+*.svg
+
+# ─── IDEs & Editors ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Logs ────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Environment Variables ───────────────────────────────
+.env
+.env.local
